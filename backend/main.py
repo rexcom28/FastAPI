@@ -5,6 +5,9 @@ from db.session import engine
 from fastapi import FastAPI
 
 
+# https://www.fastapitutorial.com/blog/permissions-in-fastapi/
+
+
 def create_tables():
     Base.metadata.create_all(bind=engine)
 
